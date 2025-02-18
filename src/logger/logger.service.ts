@@ -28,5 +28,7 @@ export class LoggerService extends ConsoleLogger {
         this.logToFile(entry)
         super.error(message, stackOrContext)
 
+        // Adding some dummy code
+        console.log("")
     }
 }
