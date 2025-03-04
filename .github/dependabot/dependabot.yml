@@ -1,10 +1,7 @@
 version: 2
 updates:
   - package-ecosystem: "npm"
-    directories: 
-      - "/client/gmm-fe/"
-      - "/server/gmm-api/"
-      - "/server/directus/"
+    directory: "/"
     schedule:
       interval: "daily"
     versioning-strategy: "lockfile-only"
