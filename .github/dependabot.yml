@@ -6,5 +6,10 @@ updates:
       interval: "daily"
     versioning-strategy: "lockfile-only"
     commit-message:
-      prefix: "test(prefix)"
-    target-branch: "dev"
+      prefix: "test(dev)"
+    open-pull-requests-limit: 0
+security-updates:
+  applies-to: security-updates 
+  group: false 
+  commit-message:
+    prefix: "test(dev)"
